@@ -17,9 +17,18 @@ just deploy optimism base
 2. Port address
     Optimism - Sepolia: 0x062aF4E4527565c6F486f7f5b080006397402f2d
     Base - Sepolia: 0x062aF4E4527565c6F486f7f5b080006397402f2d
+3. Bridge method is `TransferCNY` params: `(address destPortAddr,
+        bytes32 channelId,
+        uint256 amount)`
+4. frontend page
+```
+npm install && npm run start
+```
+### Assets
+```
+subway tray panda three indoor eyebrow grit sunset cannon trophy slush wealth
+```
 
-### Other readme info
-See frontend page project [README.md](https://github.com/ziheche/Assets-cross-chain-page/blob/main/README.md)
 ### Licence
 [Apache 2.0](LICENSE)
 
